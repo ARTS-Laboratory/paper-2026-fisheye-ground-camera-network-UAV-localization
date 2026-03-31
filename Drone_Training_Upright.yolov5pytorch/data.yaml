@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../test/images
+
+nc: 1
+names: ['drone']
+
+roboflow:
+  workspace: nolans-workspace-holeu
+  project: nolans-workspace-holeu
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/nolans-workspace-holeu/nolans-workspace-holeu/dataset
